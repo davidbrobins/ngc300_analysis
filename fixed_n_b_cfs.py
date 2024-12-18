@@ -97,5 +97,6 @@ ax.set_xlabel(r'$T \, [\mathrm{K}]$')
 ax.set_ylabel(r'$\mathcal{F} \, [\mathrm{erg} \, \mathrm{cm}^{3} \, \mathrm{s}^{-1}]$')
 ax.legend()
 # Save figure
+fig.tight_layout()
 fig.savefig('fixed_density_cfs.pdf')
 plt.close(fig)
